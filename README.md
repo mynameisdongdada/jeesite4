@@ -40,7 +40,7 @@ JeeSite 4.x 的升级，作者结合了多年总结和经验，以及各方面�
 ### 本地运行
 
 1. 环境准备：`JDK 1.8`、`Maven 3.3`、`MySQL 5.7`
-2. 下载源码：<https://gitee.com/thinkgem/jeesite4/attach_files>
+2. 下载源码
 3. 打开文件：/web`/src/main/resources/config/application.yml` 配置JDBC连接
 4. 执行脚本：/web`/bin/init-data.bat` 初始化数据库
 5. 执行脚本：/web`/bin/run-tomcat.bat` 启动服务即可
