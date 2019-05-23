@@ -67,37 +67,6 @@ JeeSite 4.x 的升级，作者结合了多年总结和经验，以及各方面�
 7. 关系平台的发展战略考虑，底层部分代码暂未开源，但这不影响您的二次开发。
 8. 请知悉社区版，用户数不可超过100个，最大允许20个用户同时在线（不含匿名）。
 
-## 技术服务与支持
-
-* 没有资金的支撑就很难得到发展，特别是一个好的产品，如果 JeeSite 帮助了您，请为我们点赞。支持我们，您可以得到一些回报，有了这些我们会把公益事业做的更好，回报社区和社会，请给我们一些动力吧，在此非常感谢已支持我们的朋友！
-* **联系方式（官方商务）QQ：[1766571055](http://sighttp.qq.com/msgrd?v=1&uin=1766571055)**
-* 技术服务支持网页：<http://s.jeesite.com>
-
-# 技术交流方式
-
-* QQ 群号：`127515876`、`209330483`、`223507718`、`709534275`、`730390092`、`183903863(外包)`
-* 问题反馈：<https://gitee.com/thinkgem/jeesite4/issues> 　[【新手必读】](http://www.dianbo.org/9238/stone/tiwendezhihui.htm)
-* 码云Gitee：<https://gitee.com/thinkgem/jeesite4>
-* GitHub：<https://github.com/thinkgem/jeesite4>
-* 作者博客：<https://my.oschina.net/thinkgem>
-* **技术服务：**<http://s.jeesite.com>
-* 官方网站：<http://jeesite.com>
-* 官方论坛：<http://jeesite.net>
-* 微信公众号：
-
-![JeeSite4微信公众号](https://static.oschina.net/uploads/space/2018/0302/145133_OGZf_941661.jpg "JeeSite4微信公众号")
-
-## 今后如何升级？
-
-尽量不修改web项目以外的源码项目，如 jeesite-common、jeesite-modele-core，如果修改了，请 Pull Requests 上来，否则代码编码将与官方不同步，将对你的日后升级带来困难。
-
-JeeSite的小版本（4.1.x）升级是非常便捷的，你只需要将 pom.xml 文件中的 parent.version 版本修改到最新版本即可，同版本下你可进行 Maven 快照强制更新，即可将最新版的依赖 jar 更新到本地，下面以 Eclipse 举例，介绍如何操作：
-
-在 web 项目上右键，选择菜单 -> Maven -> Update Project...（或按Alt+F5） -> 点击 Select All 按钮 -> 选择 Force Update of Snapshots/Releases 复选框 -> 点击OK按钮即可。
-
-如果您修改了其它依赖模块代码，这时你需要利用 Git 版本控制工具，与官方仓库代码进行同步，合并代码即可。
-
-如果进行相对大的版本（4.x.x）升级这里我们会附加一个声明，帮助你进行迁移操作，更新日志：<http://jeesite.com/?t=273830>。
 
 # Git 全局设置技巧
 
